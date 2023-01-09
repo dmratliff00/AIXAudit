@@ -28,7 +28,7 @@ sudo passwd -S -a > PasswordSettings.txt
 This will show the user accounts on the AIX server.
 
 ``` Bash
-lsuser -C -a id login admin account_locked default_roles groups pgrp roles shell su sugroups admgroups gecos auth1 auth2  dictionlist expires histexpire histsize loginretries maxage minage minlen pwdchecks rlogin ALL > accounts.txt > Users.txt
+lsuser -C -a id login admin account_locked default_roles groups pgrp roles shell su sugroups admgroups gecos auth1 auth2  dictionlist expires histexpire histsize loginretries maxage minage minlen pwdchecks rlogin ALL > Users.txt
 ```
 
 ## Login Shells
