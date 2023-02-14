@@ -24,6 +24,13 @@ sudo passwd --status --all > PasswordSettings.txt
 sudo passwd -S -a > PasswordSettings.txt
 ```
 
+## Extended User Attributes
+The /etc/security/user file contains extended user attributes. This is an ASCII file that contains attribute stanzas for users. If an attribute is not defined for a user, the default value for the attribute is used.
+
+``` Bash
+/etc/security/user > SecurityUser.txt
+```
+
 ## Users
 This will show the user accounts on the AIX server.
 
